@@ -59,7 +59,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 /* This rule stops pointer/mouse from changing on hover */
 .logo:hover {
@@ -276,7 +276,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 5px;
   /* height: auto;
   width: 500px; */
 }
@@ -294,7 +294,7 @@ section {
   background: rgb(141, 137, 137);
   border-radius: 2rem;
   border: rgb(0, 0, 0) 0.3rem solid;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(92, 87, 87);
   text-align: center;
   margin: 1rem;
 }
@@ -309,6 +309,7 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
 
 /* EXPERIENCE SECTION */
 
@@ -356,8 +357,8 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163,163,163);
-  background: white;
+  border-color: rgb(92, 87, 87);
+  background: rgb(141, 137, 137);
 }
 
 .project-img {
@@ -374,7 +375,7 @@ article .icon {
 
 .project-btn {
   color: black;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(39, 37, 37);
 }
 
 /* CONTACT */
@@ -428,3 +429,7 @@ footer p {
   text-align: center;
 }
 
+.text-container p {
+  color: black ;
+  font-size:x-large;
+}
