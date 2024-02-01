@@ -38,9 +38,13 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
+    width: auto;
+    height: 46vw;
+    max-width: 100%;  /* Set a maximum width, ensuring it doesn't exceed the container */
+    max-height: 400px;
+    min-width: 100%;  /* Set a maximum width, ensuring it doesn't exceed the container */
+    min-height: 400px;
+    justify-content: center;
   }
   .about-containers {
     margin-top: 0;
