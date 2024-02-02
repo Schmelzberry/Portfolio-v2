@@ -99,8 +99,7 @@
     font-size: 1.25rem;
   }
   .section__text__p1 {
-    font-size: 1.25rem;
-    margin: 20px;
+    display: none;
   }
   .title {
     font-size: 2rem;
