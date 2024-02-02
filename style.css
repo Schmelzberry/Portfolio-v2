@@ -216,6 +216,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  margin-bottom: 10px;
 }
 
 /* BUTTONS */
@@ -387,7 +388,7 @@ article .icon {
 
 .project-img {
   display: flex;
-  align-items: center;
+  align-self: center;
   border-radius: 2rem;
   width: 90%;
   height: 90%;
